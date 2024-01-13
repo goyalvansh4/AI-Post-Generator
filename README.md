@@ -4,6 +4,7 @@ AI tool for crafting tailored posts across social platforms.
 
 ![AI Post Generator Project preview image](https://cdn.glitch.global/aa718d6e-cec3-4558-a151-9c5ade623a18/project-preview.png?v=1697474802040)
 
+<a target="_blank">[![Live Preview](https://img.shields.io/badge/Live%20Preview-Click%20Here-blue?style=for-the-badge&logo=github)](https://heavy-unequaled-pewter.glitch.me/)</a>
 
 Create code that matters! 🤩
 

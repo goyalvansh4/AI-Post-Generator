@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Post Generator</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="heading">
+      <h1>Generate your post</h1>
+    </div>
+    <div class="social_platforms">
+      <h3>Social Platform</h3>
+      <div class="social_icons">
+        <div class="social"><img
+            src="https://cdn.glitch.global/aa718d6e-cec3-4558-a151-9c5ade623a18/facebook-icon.svg?v=1697474831715"
+            alt=""></div>
+        <div class="social"><img
+            src="https://cdn.glitch.global/aa718d6e-cec3-4558-a151-9c5ade623a18/twitter-icon.svg?v=1697474840564"
+            alt=""></div>
+        <div class="social"><img
+            src="https://cdn.glitch.global/aa718d6e-cec3-4558-a151-9c5ade623a18/reddit-icon.svg?v=1697474836009" alt="">
+        </div>
+        <div class="social"><img
+            src="https://cdn.glitch.global/aa718d6e-cec3-4558-a151-9c5ade623a18/linkedin-icon.svg?v=1697474833813"
+            alt=""></div>
+      </div>
+    </div>
+    <div class="your_message">
+      <div class="count">
+      <h3>your message</h3>
+      <p><span id="charCount">0</span>/200</p>
+    </div>
+      <textarea name="" id="inputTextbox" maxlength="200"></textarea>
+    </div>
+    <div class="voice">
+      <h3>Tone of Voice</h3>
+      <div class="tone">
+        <input type="button" value="Polite">
+        <input type="button" value="Funny">
+        <input type="button" value="Friendly">
+        <input type="button" value="Informal">
+        <input type="button" value="Serious">
+        <input type="button" value="Optimistic">
+        <input type="button" value="Motivational">
+      </div>
+    </div>
+    <div class="post_style">
+      <h3>post style</h3>
+      <div class="post">
+        <input type="button" value="Work">
+        <input type="button" value="Opinion">
+        <input type="button" value="Case Study">
+        <input type="button" value="Story">
+        <input type="button" value="Tutorial">
+      </div>
+    </div>
+    <button id="submit_btn" type="submit">Generate Post</button>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
